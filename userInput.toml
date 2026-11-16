@@ -1,0 +1,42 @@
+title = "CCSDS 123.0-B-2"
+
+[general]
+r_size=8
+image_path = '/home/loki/useful/projects/astro/personal/ccsds_spike/image.bin/home/loki/useful/projects/astro/personal/ccsds_spike/image.bin'
+d_range=4
+is_lossless=0
+
+[error_control]
+err_lim_abs=0
+err_lim_rel=0
+
+
+[prediction]
+p_mode = 0
+sum_mode = 0
+
+[weights]
+omega = 18 # weight component resolution
+t_inc = 18 # weight update scaling exponent change interval
+v_min = 18
+v_max = 18
+exp_offset_mode = 1
+exp_offset_vec = [
+    []
+]
+exp_offset_vec_dir = []
+custom_init = 1
+init_table = 1
+q = 10
+w_init_vec = [
+    [1,2,3],
+    [1,2,3],
+    [1,2,3]
+]
+
+[image]
+
+[sample_representatives]
+sr_res = 0
+sr_damping = 0
+sr_offset = 0

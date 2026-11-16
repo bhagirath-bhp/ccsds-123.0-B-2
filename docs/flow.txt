@@ -1,0 +1,31 @@
+how to go about it?
+
+get input image
+get input configuration
+parse input image
+loop over all bands
+
+band iteration
+loop over each pixel
+local sum for current pixel
+local difference for current pixel
+sample representative for current pixel
+prediction for current pixel
+
+encoding
+
+
+
+
+config parameters (5.3.3)
+dynamic range
+number of preceding bands for prediction
+prediction mode (full | reduced)
+local sum mode (neighbour oriented (wide | narrow) | column oriented (wide | narrow)) 
+weight resolution omega
+weight initialization (default | custom (weight initialization vector))
+register size
+maximum error ( dA | dR )
+SR resolution theta
+SR damping phi
+SR offset psi

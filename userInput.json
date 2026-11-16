@@ -1,0 +1,21 @@
+{
+    "sampleRepFlag": 0,
+    "numOfPrecPredBands": 14,
+    "predMode": 0,
+    "wgtExpOffset": 1,
+    "localSumMode": 0,
+    "regSize": 8,
+    "wgtCompRes": 18,
+    "wgtScalingExpInit": 18,
+    "wgtScalingExpFinal": 18,
+    "wgtExpOffsetTable": 0,
+    "wgtInitMode": 0,
+    "wgtInitTableFlag": 1,
+    "wgtInitRes": 5,
+    "image": {
+        "width": 100,
+        "height": 100,
+        "bitDepth": 4,
+        "isSigned": 0
+    }
+}

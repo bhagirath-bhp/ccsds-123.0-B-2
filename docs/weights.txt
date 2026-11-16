@@ -1,0 +1,23 @@
+how can we take custom weight initialization vector
+
+one include it in userInput toml like
+wiv_1 = [1,2,3 ...]
+wiv_2 = [1,2,3 ...]
+wiv_3 = [1,2,3 ...]
+// explicit band index
+// simple
+// but this requires a predefined band variable names even before userInput, which is idiotic 
+
+or wiv = [
+    [1,2,3 ...],
+    [1,2,3 ...],
+    [1,2,3 ...],
+]
+// implicit band index
+// simpler
+// going with this one
+
+or
+separate files for each weight
+// explicit band index
+// additional file management complexity
